@@ -6368,7 +6368,7 @@ p {
 }
 
 .fa-fw {
-  width: 1.28571429em;
+  width: 12px;
   text-align: center;
   color: #fff;
   height: 30px !important;
@@ -9236,7 +9236,6 @@ nav li {
 
 @media only screen and (max-width: 990px) {
 
-  header .menu,
   header .top,
   nav a,
   nav li {
@@ -9300,7 +9299,8 @@ header .top .button:hover {
 
 header .social a {
   color: #fff;
-  padding-right: 10px
+  padding-right: 10px;
+  font-size: 10px !important;
 }
 
 nav a.active,
@@ -9351,7 +9351,7 @@ nav ul {
 
 @media only screen and (max-width: 990px) {
   nav ul {
-    background-color: #000 !important;
+    background-color: #ae8425 !important;
     padding: 20px
   }
 }
@@ -9998,6 +9998,15 @@ footer h3 {
 
 ul{
   margin-left: 3rem !important;
+}
+
+.ml-0{
+  margin-left: 0 !important;
+}
+
+.bb{
+  padding: 7px 13px !important;
+  margin: 0 10px !important;
 }
 
 /*# sourceMappingURL=style.css.map */
