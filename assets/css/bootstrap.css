@@ -4913,6 +4913,13 @@ header .menu {
   position: fixed;
   z-index: 90;
 }
+
+@media only screen and (max-width: 1200px) {
+  header .menu {
+    padding-top: 0 !important;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   header .menu {
     display: block;
